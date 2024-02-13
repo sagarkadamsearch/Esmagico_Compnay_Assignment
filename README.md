@@ -30,5 +30,16 @@
 - **Menu option for size 660px**
 <img width="369" alt="Screenshot 2024-02-13 184132" src="https://github.com/sagarkadamsearch/Esmagico_Compnay_Assignment/assets/131011951/595ae502-616d-4ee7-8f4a-ca5b24441881">
 
+- **Apply to loan section for size 1440px**
+<img width="583" alt="Screenshot 2024-02-13 184348" src="https://github.com/sagarkadamsearch/Esmagico_Compnay_Assignment/assets/131011951/dbf43f77-6e2e-4f40-9164-acd42b2229c1">
+
+- **Apply to loan section for size 666px**
+<img width="423" alt="Screenshot 2024-02-13 184522" src="https://github.com/sagarkadamsearch/Esmagico_Compnay_Assignment/assets/131011951/a2b9061e-ae5a-4de4-9d0c-c19dfa58f04f">
+
+- **Apply to loan section for size 454px**
+<img width="246" alt="Screenshot 2024-02-13 184709" src="https://github.com/sagarkadamsearch/Esmagico_Compnay_Assignment/assets/131011951/fd55f248-691a-4e83-ab78-bfdb4d286fc0">
+
+
+
 
 
