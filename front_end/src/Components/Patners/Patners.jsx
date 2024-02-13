@@ -28,7 +28,7 @@ const DIV = styled.div`
     gap: 100px;
     /* grid-template-columns: 0.5fr 1fr; */
     align-items: center;
-    padding-left: 10    0px;
+    padding-left: 100px;
     padding-right: 50px;
     font-size: 38px;
     font-weight: bold;

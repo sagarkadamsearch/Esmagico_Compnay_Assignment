@@ -9,6 +9,8 @@ import Testimonial from './Components/Testimonial/Testimonial';
 import Menus from './Components/Navbar/Menus';
 import { useState } from 'react';
 import FAQ from './Components/FAQ/FAQ';
+import Process from './Components/Process/Process';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   const [menuIsActive,setMenuIsActive] = useState(false);
@@ -25,7 +27,9 @@ function App() {
       <Patners/>
       <Apply_Mobile/>
       <Testimonial/>
+      <Process/>
       <FAQ/>
+      {/* <Footer/> */}
       <div>
         
       </div>
