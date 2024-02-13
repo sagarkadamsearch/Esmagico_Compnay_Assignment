@@ -39,12 +39,13 @@ export default Menus;
 
 const DIV = styled.div`
     width: 100%;
-    position: fixed;
-    top: 0px;
-    left: 0px;
+    position: relative;
+    width: 100vw;
     background: white;
     font-weight: 600;
-
+    top: -90px;
+    z-index: 1000;
+    
     .cross{
         display: flex;
         align-items: center;

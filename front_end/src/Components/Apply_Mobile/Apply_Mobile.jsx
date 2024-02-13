@@ -23,7 +23,7 @@ const Apply_Mobile = () => {
                     <p>Customer Share Basic Details</p>
                 </div>
                 <div className='buttonDIV'>
-                <Button w={274} pt={7} pb={7} mt={10} color='white' bg='#8800EC' fontWeight='normal'>APPLY NOW</Button>
+                <Button  zIndex="1" w={274} pt={7} pb={7} mt={10} color='white' bg='#8800EC' fontWeight='normal'>APPLY NOW</Button>
                 </div>
             </div>
         </DIV>
@@ -85,6 +85,7 @@ const DIV = styled.div`
             width: 120px;
             padding: 20px;
             margin: 0px;
+            z-index: 0;
         }
     }
 

@@ -10,12 +10,8 @@ import { AiOutlineMenu } from "react-icons/ai";
 import Menus from './Menus';
 
 
-const Navbar = () => {
+const Navbar = ({handleMenu}) => {
 
-    const [menuIsActive,setMenuIsActive] = useState(false);
-    const handleMenu = ()=>{
-      setMenuIsActive((prev)=>!prev);  
-    }
     return (
         
         <DIV className='navbar'>
@@ -48,9 +44,6 @@ const Navbar = () => {
                     <AiOutlineMenu size={20} onClick={handleMenu}/>
                 </div>
             </div>
-            <div className='navbar-right-menu' style={{position:'fixed'}}>
-               <Menus isActive={menuIsActive} handleMenu={handleMenu}/>
-            </div>
         </DIV>
     );
 };
@@ -68,7 +61,17 @@ const DIV = styled.div`
     justify-content: space-between;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
     color: #212121;
-
+    
+    /* ::-webkit-scrollbar{
+      width: 2px;
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color: #888;
+        border-radius: 6px;
+    }
+    :-webkit-scrollbar-track {
+        background-color: #f1f1f1;
+    } */
     .navbar-left{
         display: flex;
         align-items: center;

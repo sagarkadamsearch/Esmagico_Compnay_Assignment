@@ -38,7 +38,7 @@ const DIV = styled.div`
     display: flex;
     padding-left: 100px;
     padding-right: 50px;
-    padding-top: 100px;
+    padding-top: 30px;
     height: fit-content;
 
     .hero-left{
