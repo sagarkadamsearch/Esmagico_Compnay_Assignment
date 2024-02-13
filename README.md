@@ -39,6 +39,15 @@
 - **Apply to loan section for size 454px**
 <img width="246" alt="Screenshot 2024-02-13 184709" src="https://github.com/sagarkadamsearch/Esmagico_Compnay_Assignment/assets/131011951/fd55f248-691a-4e83-ab78-bfdb4d286fc0">
 
+- **Personal Loan Highlight section for size 1440px**
+<img width="590" alt="Screenshot 2024-02-13 185129" src="https://github.com/sagarkadamsearch/Esmagico_Compnay_Assignment/assets/131011951/4e6df81e-29db-4d17-a424-b407b9980fa0">
+
+- **Personal Loan Highlight section for size 1182px**
+<img width="438" alt="Screenshot 2024-02-13 185313" src="https://github.com/sagarkadamsearch/Esmagico_Compnay_Assignment/assets/131011951/b77804f6-bb87-4c34-8d0b-fb13bd2442a7">
+
+- **Personal Loan Highlight section for size 500px**
+<img width="213" alt="Screenshot 2024-02-13 185502" src="https://github.com/sagarkadamsearch/Esmagico_Compnay_Assignment/assets/131011951/cfc5043f-0741-47d8-bfa2-5c2a414426f9">
+
 
 
 
