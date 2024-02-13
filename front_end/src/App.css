@@ -3,7 +3,7 @@
   max-width: 1440px;
   width: auto;
   margin: auto;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 100vh;
   font-family: 'proxima_nova_rgregular';
 }
