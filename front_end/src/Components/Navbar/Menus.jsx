@@ -45,7 +45,7 @@ const DIV = styled.div`
     font-weight: 600;
     top: -90px;
     z-index: 1000;
-    
+
     .cross{
         display: flex;
         align-items: center;
@@ -105,7 +105,7 @@ const DIV = styled.div`
     .otherOptions{
         display: none;
     }
-
+    
 
     @media all and (max-width: 660px){
       hr{

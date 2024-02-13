@@ -8,6 +8,7 @@ import Apply_Mobile from './Components/Apply_Mobile/Apply_Mobile';
 import Testimonial from './Components/Testimonial/Testimonial';
 import Menus from './Components/Navbar/Menus';
 import { useState } from 'react';
+import FAQ from './Components/FAQ/FAQ';
 
 function App() {
   const [menuIsActive,setMenuIsActive] = useState(false);
@@ -24,6 +25,7 @@ function App() {
       <Patners/>
       <Apply_Mobile/>
       <Testimonial/>
+      <FAQ/>
       <div>
         
       </div>
