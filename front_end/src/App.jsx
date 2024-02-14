@@ -11,6 +11,7 @@ import { useState } from 'react';
 import FAQ from './Components/FAQ/FAQ';
 import Process from './Components/Process/Process';
 import Footer from './Components/Footer/Footer';
+import Refer from './Components/Refer/Refer';
 
 function App() {
   const [menuIsActive,setMenuIsActive] = useState(false);
@@ -28,6 +29,7 @@ function App() {
       <Apply_Mobile/>
       <Testimonial/>
       <Process/>
+      <Refer/>
       <FAQ/>
       <Footer/>
       <div>
