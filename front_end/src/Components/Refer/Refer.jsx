@@ -29,7 +29,7 @@ const DIV = styled.div`
     display: flex;
     align-items: center;
     gap: 300px;
-    padding: 50px 80px;
+    padding: 30px 80px;
     margin-top: 50px;
     .leftPart{
         display: flex;
@@ -67,7 +67,8 @@ const DIV = styled.div`
        /* border: 1px solid gray; */
     }
     .imageDIV img:nth-child(1){
-        
+        width: 60%;
+        margin-right: 80px;
     }
     .imageDIV img:nth-child(2){  
         position: absolute;
@@ -93,8 +94,6 @@ const DIV = styled.div`
         height: 40px;
         font-size: 15px;
         align-self: center;
-        background-color: #8800EC;
-        color: white;
        }
         .imageDIV {
           display: none;
