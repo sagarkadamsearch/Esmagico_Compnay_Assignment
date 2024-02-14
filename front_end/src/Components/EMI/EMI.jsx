@@ -248,7 +248,6 @@ const DIV = styled.div`
     .emi{
       align-items: center;
     }
-
     .emi-main-rightSidediv{
       display: flex;
       gap: 30px;
