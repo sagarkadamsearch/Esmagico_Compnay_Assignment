@@ -106,7 +106,7 @@ const DIV = styled.div`
     justify-content: center;
     border: 1px solid transparent; /* Initially transparent border */
     cursor: pointer;
-    font-size: 26px;
+    font-size: clamp(22px,1vw,26px);
     font-weight: bold;
   }
  

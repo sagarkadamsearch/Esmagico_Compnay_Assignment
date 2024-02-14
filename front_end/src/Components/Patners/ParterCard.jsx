@@ -33,4 +33,10 @@ const DIV = styled.div`
         font-size:20px ;
      }
     }
+
+    @media all and (max-width:1300) {
+        img{
+            height: 40px;
+        }
+    }
 `

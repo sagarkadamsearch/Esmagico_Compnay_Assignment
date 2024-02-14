@@ -42,11 +42,17 @@ const DIV = styled.div`
         gap: 70px;
     }
 
-    @media all and (max-width: 1340px){
-            flex-direction: column;
-            gap: 50px;
+    @media all and (max-width: 1372px){
+            font-size:34px;
+            align-items: center;
+            .all-partner-cards{
+                gap: 30px;
+            }
         }
-    
+    @media all and (max-width: 1235px){
+                 flex-direction: column;
+            gap: 30px;
+    }
         @media all and (max-width: 970px){
             font-size: clamp(25px,10vw,30px);
  
