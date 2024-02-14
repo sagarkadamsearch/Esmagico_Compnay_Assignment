@@ -2,6 +2,7 @@
 (Dynamic Charts are created using chart.js)
 
 **Responsiveness**: Website is responsive from screen size 400px to 1440px.
+
 **Check Mobile responsiveness and scroll animation within just 40sec.**
 
 - **See 40 sec Video:**  [Google-drive-link](https://drive.google.com/file/d/1l5_5X-vmrmybQg1IJaYA6nhVWnVEgyAI/view?usp=drive_link)
