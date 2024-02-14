@@ -177,7 +177,7 @@ const DIV = styled.div`
   .emi-main-rightSidediv{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     padding-left: 20px;
-    padding-right: 40px;
+    padding-right: 20px;
     padding-bottom: 20px;
     display: flex;
     align-items: center;
@@ -240,8 +240,8 @@ const DIV = styled.div`
   }
 
   @media all and (max-width:995px){
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-top: 25px;
     padding-bottom: 29px;
 
@@ -251,6 +251,11 @@ const DIV = styled.div`
     .emi-main-rightSidediv{
       display: flex;
       gap: 30px;
+      flex-direction: column;
+      align-items: center;
+    }
+    .emi-main-rightSidediv>div{
+      display: flex;
       flex-direction: column;
       align-items: center;
     }
