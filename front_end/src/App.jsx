@@ -29,7 +29,7 @@ function App() {
       <Testimonial/>
       <Process/>
       <FAQ/>
-      {/* <Footer/> */}
+      <Footer/>
       <div>
         
       </div>
