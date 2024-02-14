@@ -12,6 +12,7 @@ import FAQ from './Components/FAQ/FAQ';
 import Process from './Components/Process/Process';
 import Footer from './Components/Footer/Footer';
 import Refer from './Components/Refer/Refer';
+import EMI from './Components/EMI/EMI';
 
 function App() {
   const [menuIsActive,setMenuIsActive] = useState(false);
@@ -25,6 +26,7 @@ function App() {
       <Menus isActive={menuIsActive} handleMenu={handleMenu}/>
       <Hero/>
       <LoanPartHomePage/>
+      <EMI/>
       <Patners/>
       <Apply_Mobile/>
       <Testimonial/>
