@@ -1,4 +1,5 @@
 # Esmagico_Compnay_Assignment
+(Dynamic Charts are created using chart.js)
 
 **Deployment:**
 - **Front-end:** Deployed on versal [link](https://esmagico-compnay-assignment.vercel.app/)
@@ -12,6 +13,7 @@
 - **Chakra-UI**
 - **React-icons**
 - **Figma Tool**
+- **Chart.js**
 
 ## Page Components with responsiveness:
 
@@ -48,6 +50,7 @@
 
 - **Personal Loan Highlight section for size 500px**
 <img width="213" alt="Screenshot 2024-02-13 185502" src="https://github.com/sagarkadamsearch/Esmagico_Compnay_Assignment/assets/131011951/cfc5043f-0741-47d8-bfa2-5c2a414426f9">
+
 
 
 
