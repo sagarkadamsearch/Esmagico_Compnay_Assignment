@@ -2,6 +2,7 @@
 
 **Deployment:**
 - **Front-end:** Deployed on versal [link](https://esmagico-compnay-assignment.vercel.app/)
+- **Figma Design:** [link](https://www.figma.com/file/UzKHppNBnrx3jWh4W3sDLD/Task-File-ESM-(Copy)?type=design&node-id=1-3103&mode=design&t=kAtyOy9jhUZKmAqF-0)
 
 **Responsiveness**: Website is responsive from screen size 400px to 1440px.
 
