@@ -23,7 +23,7 @@ const HalfCircleChart = ({ principalAmount, interestAmount }) => {
       options: {
         responsive: true,
         maintainAspectRatio: false,
-        cutout: '50%',
+        cutout: '70%',
         rotation: 270, 
         circumference:180 // Adjust the cutout percentage to make it a semi-circle
       },

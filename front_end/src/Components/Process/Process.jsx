@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { styled } from 'styled-components';
 import Eligibility_icon from '../Assets/Eligibility_icon.svg';
 import Eligibility_icon1 from '../Assets/Eligibility_icon1.svg';
@@ -11,11 +11,20 @@ import Donation1 from '../Assets/Donation1.svg';
 import star1 from '../Assets/star1.svg';
 import LoanStudy from '../Assets/LoanStudy.svg';
 import loanStudy from '../Assets/LoanStudy.svg'
+import AOS from "aos";
+import 'aos/dist/aos.css';
+
 const Process = () => {
     const [activeTab, setActiveTab] = useState(1);
+    useEffect(()=>{
+      AOS.init({
+        duration:2000,
+        easing: 'ease-in-out'
+      })
+  },[])
 
   return (
-    <DIV>
+    <DIV data-aos="fade-left">
       <div className='firstDiv'>
         <div className={`${activeTab === 1 ? 'active' : ''}`+' firstDiv-innerDiv'} onClick={() => setActiveTab(1)}>
             <img src={activeTab==1?Eligibility_icon1:Eligibility_icon} alt="" />

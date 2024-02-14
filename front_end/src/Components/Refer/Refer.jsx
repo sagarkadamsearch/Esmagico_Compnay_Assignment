@@ -6,7 +6,7 @@ import { Button } from '@chakra-ui/react';
 
 const Refer = () => {
     return (
-        <DIV>
+        <DIV data-aos="fade-down-right">
             <div className='leftPart'>
                 <p>Refer & Earn Now</p>
                 <p>Get a ₹500 Big Basket gift card</p>
@@ -14,7 +14,6 @@ const Refer = () => {
                 <p>Terms and Conditions apply</p>
             </div>
             <div className='imageDIV'>
-                <img src={mobile} alt="" />
                 <img style={{width:"500px"}} src={boys} alt="" />
             </div>
         </DIV>
@@ -28,7 +27,8 @@ const DIV = styled.div`
     /* border: 1px solid gray; */
     display: flex;
     align-items: center;
-    gap: 300px;
+    justify-content: space-around;
+    /* gap: 300px; */
     padding: 30px 80px;
     margin-top: 50px;
     .leftPart{
@@ -59,13 +59,7 @@ const DIV = styled.div`
        text-decoration: underline;
        cursor: pointer;
     }
-    .imageDIV{
-       position: relative;
-       display: flex;
-       flex-direction: column;
-       align-items: flex-end;
-       /* border: 1px solid gray; */
-    }
+   
     .imageDIV img:nth-child(1){
         width: 60%;
         margin-right: 80px;
@@ -80,7 +74,8 @@ const DIV = styled.div`
 
 
     @media all and (max-width:1011px) {
-        flex-direction: column;
+        flex-direction: column-reverse;
+        align-items: center;
         gap: 20px;
         height: fit-content;
         .leftPart>p:nth-child(1){
@@ -95,9 +90,7 @@ const DIV = styled.div`
         font-size: 15px;
         align-self: center;
        }
-        .imageDIV {
-          display: none;
-        }
+      
         .leftPart>p:nth-child(4){
             align-self: center;
         }

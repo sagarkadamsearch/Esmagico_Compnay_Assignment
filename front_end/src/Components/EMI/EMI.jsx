@@ -34,7 +34,7 @@ const EMI = () => {
     }
 
     return (
-        <DIV>
+        <DIV data-aos="fade-up">
             <div className='emi'>
                <div className='emi-heading'>
                   <img src={addition_minus} alt="" />
@@ -220,6 +220,7 @@ const DIV = styled.div`
     padding: 50px 30px;
     height: 289px;
     width: 274px;
+    margin-top: 40px;
   }
   .emi-per-month>div{
         font-size: 25px;
@@ -250,6 +251,7 @@ const DIV = styled.div`
 
     .emi-main-rightSidediv{
       display: flex;
+      gap: 30px;
       flex-direction: column;
       align-items: center;
     }
@@ -258,5 +260,8 @@ const DIV = styled.div`
         flex-direction: column;
         gap:50px
       }
+     .emi-per-month{
+        margin-top: 0px;
+     } 
   }
 `

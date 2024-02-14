@@ -21,7 +21,7 @@ const AccordianArr = arr.map((e,index)=> <AccordianItem key={index} title={`${in
 
 const FAQ = () => {
     return (
-        <DIV className='faq'>
+        <DIV className='faq' data-aos="zoom-in-down">
             <div>
               <div className='faq-logo-and-title'>
                   <img src={Question_Circle} alt="" />

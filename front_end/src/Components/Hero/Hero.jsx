@@ -1,16 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { styled } from 'styled-components';
 import HeroOfferCard from './HeroOfferCard';
 import hero_offer_card1 from '../Assets/hero-offer-card1.svg';
 import hero_offer_card2 from '../Assets/hero-offer-card2.svg';
 import hero_offer_card3 from '../Assets/hero-offer-card3.svg';
 import hero_offer_card4 from '../Assets/hero-offer-card4.svg';
-import hero_image from '../Assets/hero_image.svg';
+import hero_image from '../Assets/hero_image.png';
 import { Button } from '@chakra-ui/react';
 
+
 const Hero = () => {
+
     return (
-        <DIV className='hero'>
+        <DIV className='hero' data-aos="fade-right">
             <div className='hero-left'>
               <div className="text">
                   <p>Turn Dream Into Reality</p>

@@ -7,7 +7,7 @@ import ParterCard from './ParterCard';
 
 const Patners = () => {
     return (
-        <DIV>
+        <DIV data-aos="zoom-in">
             <p>Our Partners</p>
             <div className="all-partner-cards">
                 <ParterCard logo={HDFC_Bank} name={'HDFC Bank'}/>

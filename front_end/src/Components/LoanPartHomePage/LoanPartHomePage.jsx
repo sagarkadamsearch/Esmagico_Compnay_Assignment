@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { styled } from 'styled-components';
 import Star from '../Assets/Star.svg';
 import loan_part_image from '../Assets/loan-part-image.svg';
 import star1 from '../Assets/star1.svg';
 
+
 const LoanPartHomePage = () => {
+   
     return (
-        <DIV>
+        <DIV data-aos="fade-right">
             <div className='loan-part-home-page-title'>
               <img src={Star} alt="" />
               <p>Personal Loan Highlights</p>

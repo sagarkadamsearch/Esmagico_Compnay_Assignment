@@ -6,7 +6,7 @@ import TestimonialCard from './TestimonialCard';
 
 const Testimonial = () => {
     return (
-        <DIV className='testimonial'>
+        <DIV className='testimonial' data-aos="fade-right">
             <div className="testimonial-title">
                 <img src={Hand_Heart} alt="" />
                 <p>What Our Customer Says</p>
