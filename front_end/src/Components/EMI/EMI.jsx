@@ -142,7 +142,7 @@ const DIV = styled.div`
   .emi-heading{
     display: flex;
     align-items: center;
-    font-size: 44px;
+    font-size: clamp(22px,3.15vw,44px);
     font-weight: 600;
   }
   .emi-main-div{
@@ -161,7 +161,7 @@ const DIV = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    font-size: 20px;
+    font-size: clamp(18px,1.39vw,20px);
   }
   .emi-main-leftSidediv-sliderDiv>p{
     color: #A0A0A0;
@@ -192,7 +192,7 @@ const DIV = styled.div`
     width: 100%;
     /* border: 1px solid red; */
     margin-bottom: 28px;
-    font-size: 20px;
+    font-size: clamp(18px,1.39vw,20px);
     font-weight: 500;
   }
   .amount{
@@ -208,7 +208,7 @@ const DIV = styled.div`
     margin-left: 30px;
     color: #8800EC;
     font-weight: bold;
-    font-size: 20px;
+    font-size: clamp(18px,1.39vw,20px);
   }
   .emi-per-month{
     background-color: #FCF8FF;
@@ -223,11 +223,11 @@ const DIV = styled.div`
     margin-top: 40px;
   }
   .emi-per-month>div{
-        font-size: 25px;
+        font-size: clamp(20px,1.73vw,25px);
         font-weight: bold;
   }
   .emi-per-month>p{
-    font-size: 40px;
+    font-size: clamp(25px,2.78vw,40px);
     font-weight: bold;
   }  
   .emi-per-month~button{
@@ -240,8 +240,8 @@ const DIV = styled.div`
   }
 
   @media all and (max-width:995px){
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-top: 25px;
     padding-bottom: 29px;
 
